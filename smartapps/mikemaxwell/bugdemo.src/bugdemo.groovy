@@ -15,7 +15,7 @@ preferences {
 }
 
 def main(){
-	dynamicPage(name: "main", title: "main", uninstall: false, install: true) {
+	dynamicPage(name: "main", title: "main", uninstall: true, install: true) {
         section(){
         	input(
 				name			: "baseDevice"
