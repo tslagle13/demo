@@ -23,7 +23,7 @@ def main(){
 				,multiple		: false
 				,required		: false
 				,type			: "enum"
-                ,options		: ["capability.actuator","device.dimmerSwitch","device.keenHomeSmartVent","device.harmonyActivity"]
+                ,options		: ["capability.actuator","device.dimmerSwitch","device.keenHomeSmartVent","device.harmonyActivity","device.simulatedMotionSensor"]
 				,submitOnChange	: true
              )   
         	 input(
