@@ -43,11 +43,11 @@ def main(){
 }
 
 def spinOmatic(){
-	def data = []
+	def data = ""
 		settings.device.properties.each{ p ->
-        	data << "${p}\n"
+        	data.push("${p}\n")
         }
-	return data.tostring()
+	return data
 }
 
 def installed() {
