@@ -45,7 +45,7 @@ def main(){
 def spinOmatic(){
 	def data = []
 		settings.device.properties.each{ p ->
-        	data << "${p}\n"
+        	data = data.push("${p}\n")
         }
 	return data.tostring()
 }
