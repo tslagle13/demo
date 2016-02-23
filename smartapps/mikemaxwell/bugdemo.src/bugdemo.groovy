@@ -45,7 +45,7 @@ def main(){
 def spinOmatic(){
 	def data = ""
 		settings.device.properties.each{ p ->
-        	data.push("${p}\n")
+        	data = data + "${p}"
         }
 	return data
 }
@@ -62,5 +62,4 @@ def updated() {
 def initialize() {
 	
 }
-
 
